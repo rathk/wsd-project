@@ -165,7 +165,7 @@ h2{
 }
 
 #gallery li{
-	border: solid;
+	/*border: solid;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
 	float: left;
