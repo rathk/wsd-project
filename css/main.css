@@ -1,8 +1,7 @@
 
 body{
-	font-family: 'Lucida Sans', Arial, sans-serif;
-	font-size: 16px;
-	width: 1050px;
+	font: 100%/1.5 'Lucida Sans', Arial, sans-serif;
+	max-width: 1050px;
 	background-color: #00688B;
 }
 
@@ -10,33 +9,41 @@ body a{
 	text-decoration: none;
 }
 
+img#bg{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
 #header{
-	height: 103px;
-	width: 400px;
-	padding-top: 40px;
-	margin-left: 320px;
+	height: 8.75em;/*height: 13.3333% /*140px;*/
+	width: 38.0952%; /*400px/1050px;*/
+	padding-top: 0.1%; /*40px*/
+	margin-left: 30.476190%; /*320px*/
 	background-image: url(../images/headerpic_r22.jpg);
-	background-size: 400px 143px;
-	/*background-repeat: none;*/
-	overflow: hidden;
+	background-size: 100%; /*400px 143px*/
+	background-repeat: none;
+	/*overflow: hidden;*/
 }
 
 h2{
-	text-shadow: 2px 2px 2px #F8F8FF;
+	text-shadow: 0.125em 0.125em 0.125em /*2px 2px 2px*/ #F8F8FF;
 }
 
 
 #caption{
-	margin-left: 275px;
-	margin-bottom: 30px;
+	margin-left: 26.190476%; /*275px;*/
+	margin-bottom: 2.85714%; /*30px;*/
 	color: #F8F8FF;
 	text-align: center;
-	width: 500px;
-	margin-bottom: 20px;
+	width: 47.6190%; /*500px;*/
+	margin-bottom: 1.90476%; /*20px;*/
 }
 
 #nav{
-	height: 60px;
+	height: 3.75em; /*60px;*/
 	border-top: solid 3px #BCD2EE;
 	border-bottom: solid 3px #BCD2EE;
 	text-align: center;
@@ -47,10 +54,10 @@ h2{
 #nav li{
 	float: left;
 	/*padding-top: 10px;*/
-	margin-top: 20px;
-	margin-left: 75px;
+	margin-top: 1.90476%; /*20px;*/
+	margin-left: 7.14285%; /*75px;*/
 	background-color: #00688B;
-	width: 250px;
+	width: 23.8095%; /*250px;*/
 }
 
 #nav a{
@@ -74,12 +81,12 @@ h2{
 }
 
 #trainer{
-	margin-top: 40px;
-	margin-left: 30px;
-	margin-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 290px;
+	margin-top: 3.80952%; /*40px;*/
+	margin-left: 2.85714%; /*30px;*/
+	margin-bottom: 1.90476%; /*20px;*/
+	padding-left: 0.952380%; /*10px;*/
+	padding-right: 0.952380%; /*10px;*/
+	width: 27.61904%; /*290px;*/
 	border: 5px solid #BCD2EE;
 	border-radius: 10px;
 	background-color: #6E7B8B; opacity: 0.75;
@@ -87,11 +94,11 @@ h2{
 }
 
 #fun{
-	margin-top: 40px;
-	margin-left: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 290px;
+	margin-top: 3.80952%; /*40px;*/
+	margin-left: 1.90476%; /*20px;*/
+	padding-left: 0.952380%; /*10px;*/
+	padding-right: 0.952380%; /*10px;*/
+	width: 27.61904%; /*290px;*/
 	border: 5px solid #BCD2EE;
 	border-radius: 10px;
 	background-color: #6E7B8B; opacity: 0.75;
@@ -99,11 +106,11 @@ h2{
 }
 
 #affordable{
-	margin-top: 40px;
-	margin-left: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 290px;
+	margin-top: 3.80952%; /*40px;*/
+	margin-left: 1.90476%; /*20px;*/
+	padding-left: 0.952380%; /*10px;*/
+	padding-right: 0.952380%; /*10px;*/
+	width: 27.61904%; /*290px;*/
 	border: 5px solid #BCD2EE;
 	border-radius: 10px;
 	background-color: #6E7B8B; opacity: 0.75;
@@ -111,13 +118,13 @@ h2{
 }
 
 .button {
-	margin-left: 35px;
+	margin-left: 3.3333%; /*35px;*/
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 14px/100% Arial, Helvetica, sans-serif;
+	font: 87.50% Arial, Helvetica, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
@@ -161,22 +168,171 @@ h2{
 	border-top: solid 3px #BCD2EE;
 	clear: left;
 	list-style: none;
-	margin-top: 20px;
+	margin-top: 1.90476%; /*20px;*/
+	width: 100%;
 }
 
 #gallery li{
 	/*border: solid;*/
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 1.90476%; /*20px;*/
+	margin-bottom: 1.90476%; /*20px;*/
 	float: left;
-	width: 240px;
+	width: 24.7619047619%;/*260px;*/ 
+}
+
+#gallery li img{
+	max-width: 100%;
 }
 
 #footer{
 	clear: both;
 	background-color: #6E7B8B;
-	width: 1050px;
+	width: 100%; /*1050px;*/
 	text-align: center;
 	border: 5px solid #BCD2EE;
 	border-radius: 10px;
+}
+
+/*======================MEDIA QUERIES===========================*/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	/*#trainer{
+		background-color: #000;
+	}*/
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body{
+		font-size: 0.75em;
+
+	}
+	
+	img#bg{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	
+	#header{
+		height: 7.5em;
+		overflow: hidden;
+		font-size: 0.75em;
+	}
+	
+	#nav{
+		border-top: solid 2px #BCD2EE;
+		border-bottom: solid 2px #BCD2EE;
+	}
+	
+	}
+	#trainer{
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+	}
+	
+	#fun{
+		float: none;
+		margin: 0.65189048239896% auto;
+		width: 90%;
+	}
+	
+	#affordable{
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+	}
+	
+	#button{
+		margin: 0.65189048239896% auto;
+		text-align: center;
+	}
+	
+	#gallery{
+		border-top: solid 2px #BCD2EE;
+		width: 90%;
+		margin: 0.65189048239896% auto;
+	}
+	
+	#footer{
+		border: 2px solid #BCD2EE;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#header{
+		background-image: none;
+		height: 3.5em;
+		width: 47.6190%;
+		font-size: 0.75em;
+		font-weight: normal;
+		margin: 0 auto;
+	}
+	
+	#caption{
+		margin: 0 auto;
+		width: 47.6190%;
+		text-align: left;
+		
+	}
+	
+	body{
+		font-size: 0.625em;
+	}
+	
+	#nav{
+	height: 3.75em;
+	border-top: solid 1px #BCD2EE;
+	border-bottom: solid 1px #BCD2EE;
+	text-align: left;
+	list-style: none;
+}
+
+	#nav li{
+		text-decoration: underline;
+	}
+	
+	#trainer{
+		float: none;
+		margin: 0 auto;
+		width: 83.50730688935282%; 
+		border: 2px solid #BCD2EE;
+		
+	}
+	
+	#fun{
+		float: none;
+		margin: 1.04384133611691% auto;
+		width: 83.50730688935282%;
+		border: 2px solid #BCD2EE;
+	}
+	
+	#affordable{
+		float: none;
+		margin: 0 auto;
+		width: 83.50730688935282%;
+		border: 2px solid #BCD2EE;
+	}
+	
+	#button{
+		margin: 1.04384133611691% auto;
+		text-align: center;
+	}
+	
+	#gallery{
+		border-top: solid 2px #BCD2EE;
+		width: 83.50730688935282%;
+		margin: 1.04384133611691% auto;
+	}
+	
+	#footer{
+		border: 2px solid #BCD2EE;
+	}
+
 }
