@@ -1,4 +1,4 @@
-
+/*=============================Main Styling =========================*/
 body{
 	font: 100%/1.5 'Lucida Sans', Arial, sans-serif;
 	max-width: 1050px;
@@ -9,14 +9,11 @@ body a{
 	text-decoration: none;
 }
 
-img#bg{
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
+h2{
+	text-shadow: 0.125em 0.125em 0.125em /*2px 2px 2px*/ #F8F8FF;
+}
 
+/*============================Header Styling========================*/
 #header{
 	height: 8.75em;/*height: 13.3333% /*140px;*/
 	width: 38.0952%; /*400px/1050px;*/
@@ -24,14 +21,15 @@ img#bg{
 	margin-left: 30.476190%; /*320px*/
 	background-image: url(../images/headerpic_r22.jpg);
 	background-size: 100%; /*400px 143px*/
-	background-repeat: none;
-	/*overflow: hidden;*/
 }
 
-h2{
-	text-shadow: 0.125em 0.125em 0.125em /*2px 2px 2px*/ #F8F8FF;
+img#bg{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 }
-
 
 #caption{
 	margin-left: 26.190476%; /*275px;*/
@@ -42,6 +40,7 @@ h2{
 	margin-bottom: 1.90476%; /*20px;*/
 }
 
+/*===========================Navigation Styling=====================*/
 #nav{
 	height: 3.75em; /*60px;*/
 	border-top: solid 3px #BCD2EE;
@@ -53,7 +52,6 @@ h2{
 
 #nav li{
 	float: left;
-	/*padding-top: 10px;*/
 	margin-top: 1.90476%; /*20px;*/
 	margin-left: 7.14285%; /*75px;*/
 	background-color: #00688B;
@@ -80,6 +78,7 @@ h2{
 	background-color: #00BFFF;
 }
 
+/*========================Page Content Styling ===========================*/
 #trainer{
 	margin-top: 3.80952%; /*40px;*/
 	margin-left: 2.85714%; /*30px;*/
@@ -91,9 +90,102 @@ h2{
 	border-radius: 10px;
 	background-color: #6E7B8B; opacity: 0.75;
 	float: left;
+	overflow: hidden;
+}
+
+#trainer p{
+	width: 48%;
+	float: left;
+	
+}
+
+#p2{
+	width: 48%;
+	clear: left;
+	float: left;
+	overflow: hidden;
+}
+
+#trainer h2{
+	width: 48%;
+	overflow: hidden;
+}
+
+/*#right_column{
+	width: 48%
+	clear: left;
+	float: left;
+}*/
+
+#trainer ol{
+	clear: left;
+	float: left;
+	overflow: hidden;
+}
+
+#form{
+	display: inline;
+	float: right;
+	width: 48%;
+	position: relative;
+	top: -359px;
+	margin-bottom: -340px;
+}
+
+input:focus{
+	background: #BCD2EE;
+}
+
+textarea:focus{
+	background: #BCD2EE;
+}
+
+label{
+	display: block;
+}
+
+#f_name{
+	float: left;
+	margin-right: 1.875em;
+}
+
+#e_mail{
+	float: left;
+	margin-right: 1.875em;
+}
+
+#p_rating{
+	float: left;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+
+#p_rating_dropdown{
+	margin-top: 10px;
+}
+
+
+#a_rating{
+	float: left;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+
+#a_rating_dropdown{
+	margin-top: 10px;
+}
+
+#comment_area{
+	padding-top: 10px;
+}
+
+#button_area{
+	position: relative;
+	right: -254px;
 }
 
 #fun{
+	clear: right;
 	margin-top: 3.80952%; /*40px;*/
 	margin-left: 1.90476%; /*20px;*/
 	padding-left: 0.952380%; /*10px;*/
@@ -117,6 +209,25 @@ h2{
 	float: left;
 }
 
+table{
+	border: 1px solid #fff;
+	border-collapse: collapse;
+}
+
+th{
+	border: 1px solid #fff;
+	padding: 0.3em;
+	background-color: #00688B;
+	color: #BCD2EE;
+
+}
+
+td{
+	border: 1px solid #fff;	
+	padding: 0.4em;
+}
+
+/*============================Button Styling =====================*/
 .button {
 	margin-left: 3.3333%; /*35px;*/
 	display: inline-block;
@@ -163,6 +274,7 @@ h2{
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
 }
 
+/*======================Image Gallery Styling ==================*/
 #gallery{
 	text-align: center;
 	border-top: solid 3px #BCD2EE;
@@ -173,7 +285,7 @@ h2{
 }
 
 #gallery li{
-	/*border: solid;*/
+	list-style: none;
 	margin-top: 1.90476%; /*20px;*/
 	margin-bottom: 1.90476%; /*20px;*/
 	float: left;
@@ -184,6 +296,7 @@ h2{
 	max-width: 100%;
 }
 
+/*=====================Footer Styling ==========================*/
 #footer{
 	clear: both;
 	background-color: #6E7B8B;
@@ -262,7 +375,6 @@ h2{
 	#footer{
 		border: 2px solid #BCD2EE;
 	}
-}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
